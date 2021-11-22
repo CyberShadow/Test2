@@ -1,0 +1,40 @@
+name: Bug Report
+description: If you think aconfmgr is doing something incorrectly, please let us know.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - CyberShadow
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file this bug report!
+
+        If you're not quite sure if the behavior you're seeing is a bug in aconfmgr or not,
+        or would like to otherwise report a potential problem,
+        you can [open a discussion instead](https://github.com/CyberShadow/aconfmgr/discussions).
+  - type: textarea
+    id: description
+    attributes:
+      label: 'General description of the problem:'
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 'Steps to reproduce the problem:'
+      placeholder: |
+        1. [...]
+        2. [...]
+        3. [...]
+  - type: textarea
+    id: config
+    attributes:
+      label: 'Relevant aconfmgr configuration fragment which demonstrates the problem (if applicable):'
+      render: bash
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: 'Expected result:'
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: 'Actual result:'
