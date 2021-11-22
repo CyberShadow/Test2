@@ -29,10 +29,10 @@ body:
     id: steps-to-reproduce
     attributes:
       label: 'Steps to reproduce the problem:'
-      placeholder: |
-        1. [...]
-        2. [...]
-        3. [...]
+      value: |
+        1. 
+        2. 
+        3. 
 
   - type: textarea
     id: config
