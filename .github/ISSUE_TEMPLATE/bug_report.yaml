@@ -63,3 +63,10 @@ body:
         Please add any relevant aconfmgr output, if applicable.
         (Copy it from your terminal emulator and paste it here.)
       render: text
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 'Additional context:'
+      placeholder: |
+        You can add any additional information that you feel is relevant here.
