@@ -47,11 +47,13 @@ body:
     id: expected-result
     attributes:
       label: 'Expected result:'
+      placeholder: 'What did you expect to happen?'
 
   - type: textarea
     id: actual-result
     attributes:
       label: 'Actual result:'
+      placeholder: 'What actually happened instead?'
 
   - type: textarea
     id: log
