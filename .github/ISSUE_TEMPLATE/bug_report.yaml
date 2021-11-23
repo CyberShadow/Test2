@@ -21,14 +21,16 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 'General description of the problem:'
+      label: 'Description'
+      description: 'General description of the problem:'
     validations:
       required: true
 
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: 'Steps to reproduce the problem:'
+      label: 'Steps to reproduce'
+      description: 'Steps to reproduce the problem:'
       value: |
         1. 
         2. 
@@ -37,29 +39,27 @@ body:
   - type: textarea
     id: config
     attributes:
-      label: 'Configuration:'
-      placeholder: |
-        # Please add a relevant aconfmgr configuration fragment
-        # which demonstrates the problem (if applicable).
+      label: 'Configuration'
+      description: Please add a relevant aconfmgr configuration fragment which demonstrates the problem (if applicable).
       render: bash
 
   - type: textarea
     id: expected-result
     attributes:
-      label: 'Expected result:'
-      placeholder: 'What did you expect to happen?'
+      label: 'Expected result'
+      description: 'What did you expect to happen?'
 
   - type: textarea
     id: actual-result
     attributes:
-      label: 'Actual result:'
-      placeholder: 'What actually happened instead?'
+      label: 'Actual result'
+      description: 'What actually happened instead?'
 
   - type: textarea
     id: log
     attributes:
-      label: 'Log:'
-      placeholder: |
+      label: 'Log'
+      description: |
         Please add any relevant aconfmgr output, if applicable.
         (Copy it from your terminal emulator and paste it here.)
       render: text
@@ -67,6 +67,6 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: 'Additional context:'
-      placeholder: |
+      label: 'Additional context'
+      description: |
         You can add any additional information that you feel is relevant here.
