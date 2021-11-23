@@ -30,7 +30,7 @@ body:
     id: steps-to-reproduce
     attributes:
       label: 'Steps to reproduce'
-      description: 'Steps to reproduce the problem:'
+      description: 'The problem can be reproduced by following these steps:'
       value: |
         1. 
         2. 
